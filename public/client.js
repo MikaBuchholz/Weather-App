@@ -1,7 +1,7 @@
 const button = document.getElementById("show-button")
 const inputField = document.getElementById("input-field")
 const grid = document.getElementById("icon")
-const key = System.getenv("api_key")
+const key = 'bb2246c3f74b0554192de7f864a617cf'
 
 const checkbox = document.getElementById("checkbox")
 const cityTag = document.getElementById("city-display")
