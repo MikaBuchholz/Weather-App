@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/add-to-loud.png">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <script defer src = "client.js"></script>
+    </head>
+    <body>
+        <header>
+            
+            <ul class="nav__links">
+               <li> <a class="logo" href="/"><img src="https://img.icons8.com/cute-clipart/64/000000/add-to-loud.png"/></a></li>
+            </ul>
+            
+                <ul class="nav__links">
+                    <li><a href="#" class = "headline">Weather App</a></li>
+                </ul>
+            
+            <ul class="nav__links">
+                <a class="cta" href="https://github.com/MikaBuchholz">Github</a>
+            </ul>
+       
+        </header>
+    </body>
+    <section class = "basic-grid" id = "icon">
+        <div class = "searchbar-container">
+            <input placeholder="e.g. London" type="text" class = "input-field" id = "input-field">
+        </div>
+        <div class = "checkbox-container">
+            <input type="checkbox" class="system-checkbox"  id = "checkbox">
+            <label for="checkbox">Metric</label>
+        </div>
+        <div class = "button-container">
+            <button id = "show-button" class = "show-button">Search</button>
+        </div>
+    </section>      
+    <section class ="info-container">
+        <div>
+            <p class = "city-display" id = "city-display">Weather for City</p>
+        </div>
+        <div class = "info-container-div">
+                <p class = "weather-info" id = "temp">Temperature: </p>
+        </div>
+        <div class = "info-container-div">
+                <p class = "weather-info" id = "feels">Feels like: </p>
+        </div>
+        <div class = "info-container-div">
+            <p class = "weather-info" id = "maxTemp">Max. Temperature: </p>
+        </div>
+        <div class = "info-container-div">
+            <p class = "weather-info" id = "minTemp">  Min. Temperature: </p>
+        </div>
+        <div class = "info-container-div">
+                <p class = "weather-info" id = "clouds"> Sky:</p>
+        </div>
+        <div class = "info-container-div">
+                <p class = "weather-info" id = "cloudiness">  Cloudiness:</p>
+        </div>
+        <div class = "info-container-div">
+            <p class = "weather-info" id = "wind">  Windspeed:</p>
+    </div>
+     </section>
+    
+</html>
